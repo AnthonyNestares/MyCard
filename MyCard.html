@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Card - Anthony Nestares</title>
+    <link rel="icon" href="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-developer-web-development-flaticons-lineal-color-flat-icons-2.png">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #07364a;
+        }
+
+        section {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .card {
+            width: 450px;
+            height: 550px;
+            border-radius: 50px;
+            background: #264856;
+            box-shadow: -17px -17px 34px #001e2b, 17px 17px 34px #006a97;
+            margin-top: 100px;
+        }
+
+        .dyi679 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .fotos {
+            position: relative;
+        }
+
+        .fotos img {
+            position: absolute;
+        }
+
+        .fotos hr {
+            position: absolute;
+            background: #FDFEFE;
+            width: 300px;
+            margin-top: 360px;
+        }
+
+        .fotos .portada {
+            width: 95%;
+            height: 200px;
+            margin-top: 10px;
+            box-shadow: 2px 4px 10px #212D3D;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+        }
+
+        .fotos .perfil {
+            width: 160px;
+            height: 160px;
+            border-radius: 100px;
+            margin: 160px;
+            border: 5px solid #FDFEFE;
+        }
+
+        .texto .nombre {
+            margin-top: 328px;
+            font-weight: bold;
+            font-size: 25px;
+            font-family: sans-serif;
+            color: #FDFEFE;
+            text-align: center;
+        }
+
+        .texto .oficio {
+            font-size: 15px;
+            font-family: sans-serif;
+            color: #fdfefe;
+            text-align: center;
+            margin: 10px;
+        }
+
+        .texto .pais {
+            font-size: 15px;
+            font-family: sans-serif;
+            color: #fdfefe;
+            text-align: center;
+        }
+
+        .texto .peru {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+        }
+
+        .container--social {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="card">
+            <div class="fotos dyi679">
+                <img class="portada" src="Imagenes/pexels-pixabay-270348.jpg">
+                <img class="perfil" src="imagenes/WhatsApp Image 2022-07-23 at 9.28.07 PM.jpeg">
+                <hr>
+            </div>
+            <div class="texto">
+                <p class="nombre">Anthony Nestares</p>
+                <p class="oficio">Frontend Developer 💻</p>
+                <p class="pais"> Lima - Perú <img src="Imagenes/icons8-perú-48.png" alt="peru" class="peru"></p>
+            </div>
+            <div class="container--social">
+                <img src="imagenes/icons8-gmail-48.png" alt="gmail">
+                <img src="Imagenes/icons8-linkedin-48.png" alt="linkedin">
+                <img src="Imagenes/icons8-github-48.png" alt="github">
+                <img src="Imagenes/icons8-whatsapp-48.png" alt="whatsapp">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
